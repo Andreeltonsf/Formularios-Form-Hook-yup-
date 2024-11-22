@@ -12,6 +12,15 @@ O foco está em implementar validações robustas, incluindo campos obrigatório
 
 
 
+## Instalação
+
+Instale o react hookform e yup
+
+```bash
+npm install react-hook-form @hookform/resolvers yup
+
+```
+    
 ## Uso/Exemplos
 
 ```javascript
@@ -66,13 +75,6 @@ const schema = yup
 - Deve ser igual ao campo **`password`**.
 - **Mensagem de erro**:
   - `"Senhas não coincidem"`.
-
-## Instalação
-
-Instale o react hookform e 
-
-```bash
-npm install react-hook-form @hookform/resolvers yup
 
 ```
     
